@@ -24,8 +24,8 @@ img {
   padding: 1.25em;
   margin-left: 1.25em;
   padding-left: 1.25em;
-  padding-bottom: 50px;
-  box-shadow: 0 8px 16px 0 rgba(147, 146, 145, 0.716);
+  padding-bottom: 3.125em;
+  box-shadow: 0 0.5em 1em 0 rgba(147, 146, 145, 0.716);
   background-color: #FFFFFF;
   text-align: left;
   width: 20%;
@@ -50,9 +50,9 @@ img {
   align-items: center;
   justify-content: space-between; /* evenly spread items */
   background-color: #F7F8FC;
-  width: 1170px;
+  width: 73.125em ;
   max-width: 100%;
-  padding: 42px 0;
+  padding: 2.625em  0;
 }
 
 .auth-buttons {
@@ -67,10 +67,10 @@ list-style: none;
 display: flex;
 flex-grow: 1;
 align-items: center;
-gap: 30px;
+gap: 1.875em ;
 font-family:
 Poppins;
-font-size: 16px;
+font-size: 1em;
 font-weight: 500;
 justify-content: space-between;
 }
@@ -82,13 +82,13 @@ margin: auto 0;
 }
 
 .signup-button {
-border-radius: 5px;
+border-radius: 0.3125em  ;
 background-color: #fa7436;
-padding: 15px 30px;
+padding: 0.9375em  1.875em ;
 height: 1.25em;
-width: 80px;
+width: 5em ;
 color: #fff;
-margin-top: 50px;
+margin-top: 3.125em;
 text-decoration: none;
 }
   .brand-name {
@@ -108,7 +108,7 @@ text-decoration: none;
       justify-content: center;
       gap: 22px;
       font-family:Poppins;
-      font-size: 16px;
+      font-size: 1em;
       color: #222;
       font-weight: 400;
       line-height: normal;
@@ -120,7 +120,7 @@ text-decoration: none;
       text-decoration: none;
       }
 .hero-content {
-     margin-top: 14px;
+     margin-top: 0.875em ;
       }
 
 .content-wrapper {
@@ -155,7 +155,7 @@ sans-serif;
 
 .hero-title {
 color: #222;
-font-size: 64px;
+font-size: 4em ;
 font-family:
 Volkhov,
 -apple-system,
@@ -163,7 +163,7 @@ Roboto,
 Helvetica,
 sans-serif;
 font-weight: 700;
-line-height: 70px;
+line-height:1.625em;
 margin: 0;
 }
 
@@ -175,8 +175,8 @@ color: #fa7436;
 color: #666;
 font-size: 1.25em;
 font-weight: 400;
-line-height: 40px;
-margin: 32px 24px 0 0;
+line-height: 1.5625em ;
+margin: 2em   1.5em  0 0;
 }
 
 .image-content {
@@ -197,30 +197,30 @@ flex-grow: 1;
 .discover-button
 {
     
-border-radius: 5px;
+border-radius: 0.3125em  ;
 background-color: #fff;
 border: 1px solid #fa7436;
 cursor: pointer;
 align-self: start;
-margin-top: 64px;
-padding: 14px 28px;
-font-size: 18px;
+margin-top: 4em ;
+padding: 0.875em  28px;
+font-size: 1.125em ;
 color: #fa7436;
 font-weight: 500;
-line-height: 32px;
+line-height: 2em  ;
 font-family: Poppins;
 
 }
 .search-section {
-  border-radius: 10px;
+  border-radius: 0.625em   ;
   background-color: #fff;
-  box-shadow: 0 2px 80px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0  0.125em   5em  0.125em  rgba(0, 0, 0, 0.06);
   margin-left: auto;
-  margin-right: 50px;
-  margin-top: 42px;
-  width: 841px;
+  margin-right: 3.125em;
+  margin-top: 2.625em ;
+  width: 52.5625em ;
   max-width: 100%;
-  padding: 32px 24px;
+  padding: 2em   1.5em ;
   font-family: Poppins;
 }
 
@@ -240,11 +240,11 @@ width: 76%;
 
 .search-inputs {
 display: flex;
-width: 491px;
+width:  30.6875em;
 max-width: 100%;
 align-items: stretch;
 gap: 1.25em;
-font-size: 16px;
+font-size: 1em;
 color: #222;
 font-weight: 500;
 flex-wrap: wrap;
@@ -265,8 +265,8 @@ flex-grow: 1;
 aspect-ratio: 1.72;
 object-fit: contain;
 object-position: center;
-width: 12px;
-stroke-width: 2px;
+width:  0.75em ;
+stroke-width: 0.125em ;
 stroke: #fa7436;
 margin: auto 0;
 flex-shrink: 0;
@@ -274,10 +274,10 @@ flex-shrink: 0;
 
 .input-placeholders {
 display: flex;
-margin-top: 10px;
+margin-top: 0.625em   ;
 align-items: stretch;
-gap: 40px 98px;
-font-size: 12px;
+gap: 1.5625em  98px;
+font-size: 0.75em ;
 color: #666;
 font-weight: 400;
 flex-wrap: wrap;
@@ -298,24 +298,24 @@ width: 24%;
 }
 
 .explore-button {
-border-radius: 5px;
+border-radius: 0.3125em  ;
 box-shadow: 0 8px 16px 0 rgba(250, 116, 54, 0.16);
 background-color: #fa7436;
 border: none;
 cursor: pointer;
 flex-grow: 1;
-padding: 14px 28px;
+padding: 0.875em  28px;
 font-family:Poppins;
-font-size: 18px;
+font-size: 1.125em ;
 color: #fff;
 font-weight: 500;
-line-height: 32px;
+line-height: 2em  ;
 width: 100%;
 }
 .header
 { 
 background: #FEFCFB;
-padding: 1.25em;
+padding: 2.25em;
 margin-left: 4.8125em;
 }
 
@@ -334,11 +334,11 @@ margin-top: 1.25em;
 .signup-container
 {      
   margin-top: 3px;
-  margin-left: 10px;
+  margin-left: 0.625em   ;
   padding: 1.25em;
   display: flex;
   justify-content: center;
-  gap:10px;
+  gap:0.625em   ;
   flex-wrap: wrap;
   font-family: Poppins;
   flex-basis: 100%;
@@ -352,10 +352,10 @@ margin-top: 1.25em;
   width: 500px;
   font-family:Poppins;
   color: #666;
-  font-size: 18px;
+  font-size: 1.125em ;
   font-weight: 300;
-  line-height: 40px;
-  margin: 12px 24px 0 0;
+  line-height: 1.5625em ;
+  margin: 0.75em  1.5em  0 0;
   
 }
 
@@ -369,12 +369,12 @@ margin-top: 1.25em;
 {
   font-family:Poppins;
   font-style: bold;
-  font-size: 24px;
+  font-size: 1.5em ;
 
 }
 .font-sizeproperty
 {font-family:Volkhov;
-  font-size: 50px;
+  font-size: 3.125em;
   color: #222;
   font-weight: 700;
 
@@ -382,7 +382,7 @@ margin-top: 1.25em;
 
 .top-postion-container
 {
-    margin-left:90px; display: flex; gap:5px;justify-content: center;
+    margin-left:5.625em ; display: flex; gap:0.3125em  ;justify-content: center;
     align-items: center;
 }
 
@@ -394,14 +394,14 @@ margin-top: 1.25em;
 
 .sectionthree {
     background: #fefcfb;
-    padding: 1.25em;
+    padding: 1.25em ;
     margin-left: 4.8125em;
     text-align: center;
     margin-top: 1.25em;
   }
   
   .title {
-    font-size: 48px;
+    font-size: 3em ;
     color: #222;
     font-family: Volkhov;
   }
@@ -412,10 +412,10 @@ margin-top: 1.25em;
   }
   
   .description {
-    font-size: 18px;
+    font-size: 1.125em ;
     color: #666;
     max-width: 500px;
-    margin: 1.25em auto 40px;
+    margin: 1.25em auto 1.5625em ;
     font-family: Poppins;
   }
   
@@ -423,10 +423,10 @@ margin-top: 1.25em;
     
     font-family:
       Poppins;
-      font-size: 18px;
+      font-size: 1.125em ;
       color: #666;
       max-width: 500px;
-      margin: 1.25em auto 40px;
+      margin: 1.25em auto 1.5625em ;
   }
   .grid {
     display: flex;
@@ -438,8 +438,8 @@ margin-top: 1.25em;
   
   .card {
     background: #fff;
-    border: 2px solid #eee;
-    border-radius: 10px;
+    border:  0.125em   solid #eee;
+    border-radius: 0.625em   ;
     overflow: hidden;
     width: 270px;
     position: relative;
@@ -448,7 +448,7 @@ margin-top: 1.25em;
   
   
   .featured {
-    box-shadow: 0 8px 30px rgba(250, 116, 54, 0.3);
+    box-shadow: 0 8px 1.875em  rgba(250, 116, 54, 0.3);
     border: none;
   }
   
@@ -471,10 +471,10 @@ margin-top: 1.25em;
     background: #fa7436;
     color: #fff;
     border: none;
-    padding: 10px 1.25em;
+    padding: 0.625em    1.25em;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1em;
     font-family: Poppins;
   }
   
@@ -483,13 +483,13 @@ margin-top: 1.25em;
   }
   
   .city {
-    margin: 10px 0;
+    margin: 0.625em    0;
     font-size: 22px;
     color: #222;
   }
   
   .info {
-    font-size: 16px;
+    font-size: 1em;
     color: #666;
     display: flex;
     flex-direction: row;
@@ -534,11 +534,11 @@ margin-top: 1.25em;
 
   .highlight-heading-style
   {
-    padding-left: 1.25em;
-    padding-top: 1.25em;
-    padding-right: 1.25em;
-     flex-basis: 60%;margin-left: 100px;
-    font-size: 48px;
+    padding-left: 1.25em ;
+    padding-top: 1.25em ;
+    padding-right: 1.25em ;
+     flex-basis: 60%;margin-left: 6.25em;
+   
   }
 .distination-image-container
 {
@@ -553,7 +553,7 @@ margin-top: 1.25em;
     background-color: #fefcfb;
     display: flex;
     width: 100%;
-    padding: 120px 80px;
+    padding: 7.5em  5em ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -561,8 +561,8 @@ margin-top: 1.25em;
   
   .vacation-plan__content {
     display: flex;
-    margin-bottom: -24px;
-    width: 1170px;
+    margin-bottom: -1.5em ;
+    width: 73.125em ;
     max-width: 100%;
     flex-direction: column;
     align-items: center;
@@ -572,7 +572,7 @@ margin-top: 1.25em;
     color: #222222;
     font-family:
       Volkhov;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1;
     margin: 0;
@@ -587,22 +587,21 @@ margin-top: 1.25em;
     text-align: center;
     font-family:
       Poppins,;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 24px;
-    width: 521px;
-    max-width: 100%;
+    font-size: 1.125em;
+    
+    line-height: 2em  ;
+    margin-top: 1.5em ;
+    
   }
   
   .destination-grid {
     align-self: stretch;
-    margin-top: 64px;
+    margin-top: 4em ;
     width: 100%;
   }
   
   .destination-grid__container {
-    gap: 10px;
+    gap: 0.625em   ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,10 +610,10 @@ margin-top: 1.25em;
   
   /* Destination Card Styles */
   .destination-card {
-    flex: 1 1 300px; /* Allow shrinking and growing */
-    min-width: 250px;
+    flex: 1 1 18.75em; /* Allow shrinking and growing */
+    min-width: 15.625em ;
     max-width: 350px;
-    margin: 10px;
+    margin: 0.625em   ;
     box-sizing: border-box;
 }
 @media (max-width: 768px) {
@@ -630,13 +629,13 @@ margin-top: 1.25em;
 
   
   .destination-card__wrapper {
-    border-radius: 16px;
-    border: 2px solid rgba(102, 102, 102, 0.08);
+    border-radius: 1em;
+    border:  0.125em   solid rgba(102, 102, 102, 0.08);
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 1px 24px;
+    padding: 0 0.0625em 1.5em ;
     box-sizing: border-box; /* Important: Prevent overflow */
     max-width: 100%; /* Important: prevent expanding out */
     overflow: hidden; /* Hide any overflow */
@@ -646,7 +645,7 @@ margin-top: 1.25em;
   
   .destination-card--featured .destination-card__wrapper {
     background-color: #fefcfb;
-    box-shadow: 0px 16px 80px rgba(254, 147, 94, 0.2);
+    box-shadow: 0px 16px 5em  rgba(254, 147, 94, 0.2);
     border: none;
   }
   
@@ -669,13 +668,13 @@ margin-top: 1.25em;
     justify-content: space-between;
     align-items: flex-start;
     padding: 0 16px;
-    gap: 10px;
+    gap: 0.625em   ;
     flex-wrap: wrap; /* Allow wrapping on small screens */
     box-sizing: border-box;
 }
 
   .destination-card__info {
-    margin-top: 10px;
+    margin-top: 0.625em   ;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -684,7 +683,7 @@ margin-top: 1.25em;
   
   .destination-card__location {
     color: #222222;
-    font-size: 24px;
+    font-size: 1.5em ;
     line-height: 1;
     margin: 0;
     font-weight: 500;
@@ -692,7 +691,7 @@ margin-top: 1.25em;
   
   .destination-card__duration {
     color: #666;
-    font-size: 16px;
+    font-size: 1em;
     align-self: end;
     margin: 16px 0 0;
   }
@@ -701,12 +700,12 @@ margin-top: 1.25em;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin-top: 10px;
+    margin-top: 0.625em   ;
   }
   
   .destination-card__price {
     color: #fa7436;
-    font-size: 24px;
+    font-size: 1.5em ;
     font-weight: 600;
     line-height: 1;
     margin: 0;
@@ -717,8 +716,8 @@ margin-top: 1.25em;
     display: flex;
     margin-top: 16px;
     align-items: center;
-    gap: 8px;
-    font-size: 16px;
+    gap: 0.5em;
+    font-size: 1em;
     color: #666;
     font-weight: 400;
   }
@@ -727,8 +726,8 @@ margin-top: 1.25em;
     aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
-    width: 16px;
-    border-radius: 10px;
+    width: 1em;
+    border-radius: 0.625em   ;
     margin: auto 0;
   }
   
@@ -748,7 +747,7 @@ margin-top: 1.25em;
     color: #222222;
     font-family:
       Volkhov;
-    font-size: 48px;
+    font-size: 3em ;
     font-weight: 700;
     line-height: 1;
     margin: 0;
@@ -765,21 +764,22 @@ margin-top: 1.25em;
   }
   /* page-5 */
 
+  
   .apply-padding {
     background-color: rgba(247, 248, 252, 1);
     display: flex;
     width: 100%;
-    padding: 120px 70px;
+    padding: 7.5em  4.375em ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     }
     .sectionfive
     {
-      margin:0px;margin-left: 4.8125em;
+      margin:0;margin-left: 4.8125em;
     }
     .page5-container {
-    margin-bottom: -24px;
+    margin-bottom: -1.5em ;
     width: 1103px;
     max-width: 100%;
     margin-left: 4.8125em;
@@ -810,9 +810,9 @@ margin-top: 1.25em;
     Roboto,
     Helvetica,
     sans-serif;
-    font-size: 48px;
+    font-size: 3em ;
     font-weight: 700;
-    line-height: 54px;
+    line-height: 3.375em ;
     text-transform: lowercase;
     }
     
@@ -825,8 +825,8 @@ margin-top: 1.25em;
     font-family:Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
-    margin-top: 24px;
+    line-height: 2em  ;
+    margin-top: 1.5em ;
     }
     
     .card-column {
@@ -844,7 +844,7 @@ margin-top: 1.25em;
     display: flex;
     flex-grow: 1;
     align-items: flex-start;
-    gap: 19px;
+    gap: 1.1875em ;
     flex-wrap: wrap;
     }
     
@@ -852,20 +852,20 @@ margin-top: 1.25em;
     aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
-    width: 68px;
+    width: 4.25em ;
     border-radius: 50%;
     align-self: start;
     flex-shrink: 0;
     }
     
     .test-card {
-    border-radius: 10px;
-    box-shadow: 0px 10px 30px rgba(34, 34, 34, 0.35);
-    border: 2px solid rgba(102, 102, 102, 0.08);
+    border-radius: 0.625em   ;
+    box-shadow: 0px 0.625em    1.875em  rgba(34, 34, 34, 0.35);
+    border:  0.125em   solid rgba(102, 102, 102, 0.08);
     align-self: end;
     display: flex;
     margin-top: 124px;
-    padding-right: 48px;
+    padding-right: 3em ;
     padding-bottom: 22px;
     flex-direction: column;
     align-items: start;
@@ -876,9 +876,9 @@ margin-top: 1.25em;
     }
     
     .client-review {
-    border-radius: 10px;
+    border-radius: 0.625em   ;
     box-shadow:
-    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    0em 6.25em 5em  0em rgba(0, 0, 0, 0.02);
     
     background-color: #fff;
     z-index: 10;
@@ -887,7 +887,7 @@ margin-top: 1.25em;
     padding: 36px 34px;
     flex-direction: column;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 2em  ;
     }
     
     .client-quotes {
@@ -910,7 +910,7 @@ margin-top: 1.25em;
     font-weight: 400;
     align-items: start;
     margin: 0;
-    font-size: 14px;
+    font-size: 0.875em ;
     }
     
     .author-info {
@@ -925,7 +925,7 @@ margin-top: 1.25em;
     
     .author-name {
     color: #222;
-    font-size: 18px;
+    font-size: 1.125em ;
     font-weight: 600;
     opacity: 0.5;
     margin: 0;
@@ -933,24 +933,24 @@ margin-top: 1.25em;
     
     .author-title {
     color: #666;
-    font-size: 14px;
+    font-size: 0.875em ;
     font-weight: 500;
     opacity: 0.5;
-    margin-top: 6px;
+    margin-top: 0.375em  ;
     }
     
     .page5-container {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em   ;
     }
   
     .heading-wrapper {
-    margin-top: 40px;
+    margin-top: 1.5625em ;
 
     }
     
     .main-heading {
-    margin-right: 6px;
-    font-size: 40px;
+    margin-right: 0.375em  ;
+    font-size: 1.5625em ;
     line-height: 50px;
     font-family: Volkhov;
     }
@@ -961,12 +961,12 @@ margin-top: 1.25em;
     
     .test-flex {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 1.5625em ;
     }
     
     .test-card {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 1.5625em ;
     }
     
     .client-review {
@@ -975,7 +975,7 @@ margin-top: 1.25em;
     }
     
     .author-info {
-    margin-left: 10px;
+    margin-left: 0.625em   ;
     }
     
     
@@ -987,14 +987,14 @@ margin-top: 1.25em;
       background-color: rgba(247, 248, 252, 1);
       display: flex;
       width: 100%;
-      padding: 120px 70px;
+      padding: 7.5em  4.375em ;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
     
     .client-view-container {
-      margin-bottom: -24px;
+      margin-bottom: -1.5em ;
       width: 1103px;
       max-width: 100%;
     }
@@ -1009,9 +1009,9 @@ margin-top: 1.25em;
         Roboto,
         Helvetica,
         sans-serif;
-      font-size: 48px;
+      font-size: 3em ;
       font-weight: 700;
-      line-height: 54px;
+      line-height: 3.375em ;
       text-transform: lowercase;
     }
     
@@ -1023,10 +1023,10 @@ margin-top: 1.25em;
       color: #666;
       font-family:
         Roboto;
-      font-size: 16px;
+      font-size: 1em;
       font-weight: 400;
-      line-height: 32px;
-      margin-top: 24px;
+      line-height: 2em  ;
+      margin-top: 1.5em ;
     }
     
     .card-column {
@@ -1042,7 +1042,7 @@ margin-top: 1.25em;
       display: flex;
       flex-grow: 1;
       align-items: flex-start;
-      gap: 19px;
+      gap: 1.1875em ;
       flex-wrap: wrap;
     }
     
@@ -1050,20 +1050,20 @@ margin-top: 1.25em;
       aspect-ratio: 1;
       object-fit: contain;
       object-position: center;
-      width: 68px;
+      width: 4.25em ;
       border-radius: 50%;
       align-self: start;
       flex-shrink: 0;
     }
     
     .testimonial-card {
-      border-radius: 10px;
-      box-shadow: 0px 10px 30px rgba(34, 34, 34, 0.35);
-      border: 2px solid rgba(102, 102, 102, 0.08);
+      border-radius: 0.625em   ;
+      box-shadow: 0px 0.625em 1.875em  rgba(34, 34, 34, 0.35);
+      border:  0.125em   solid rgba(102, 102, 102, 0.08);
       align-self: end;
       display: flex;
       margin-top: 124px;
-      padding-right: 48px;
+      padding-right: 3em ;
       padding-bottom: 22px;
       flex-direction: column;
       align-items: start;
@@ -1074,9 +1074,9 @@ margin-top: 1.25em;
     }
     
     .testimonial-content {
-      border-radius: 10px;
+      border-radius: 0.625em   ;
       box-shadow:
-        0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+        0px 6.25em 5em  0px rgba(0, 0, 0, 0.02);
        
       background-color: #fff;
       z-index: 10;
@@ -1085,7 +1085,7 @@ margin-top: 1.25em;
       padding: 36px 34px;
       flex-direction: column;
       font-size: 16px;
-      line-height: 32px;
+      line-height: 2em  ;
     }
     
     .client-quote {
@@ -1114,12 +1114,12 @@ margin-top: 1.25em;
         Roboto,
         Helvetica,
         sans-serif;
-        font-size:14px;
+        font-size:0.875em ;
     }
     
     .author-name {
       color: #222;
-      font-size: 18px;
+      font-size: 1.125em ;
       font-weight: 600;
       opacity: 0.5;
       margin: 0;
@@ -1127,10 +1127,10 @@ margin-top: 1.25em;
     
     .author-title {
       color: #666;
-      font-size: 14px;
+      font-size: 0.875em ;
       font-weight: 500;
       opacity: 0.5;
-      margin-top: 6px;
+      margin-top: 0.375em  ;
     }
       .testimonials-content {
         flex-direction: column;
@@ -1138,13 +1138,13 @@ margin-top: 1.25em;
         gap: 0;
       }
       .heading-wrapper {
-        margin-top: 40px;
+        margin-top: 1.5625em ;
       }
     
       .main-heading {
 
-        margin-right: 6px;
-        font-size: 48px;
+        margin-right: 0.375em  ;
+        font-size: 3em ;
         line-height: 50px;
       }
     
@@ -1152,7 +1152,7 @@ margin-top: 1.25em;
         width: 100%;
       }   
       .author-info {
-        margin-left: 10px;
+        margin-left: 0.625em   ;
       }
       .img-airplane-grid
       {
@@ -1175,15 +1175,15 @@ margin-top: 1.25em;
       }
       .sectionsix {
         background: #fefcfb;
-        padding: 100px 1.25em;
+        padding: 6.25em 1.25em;
         text-align: center;
         margin-left: 4.8125em;
       }
       .info-imgsix
       {
         
-          margin: 10px 0;
-          font-size: 18px;
+          margin: 0.625em0;
+          font-size: 1.125em ;
           font-family:Poppins;
           color: #222222;
           text-align: left;
@@ -1192,7 +1192,7 @@ margin-top: 1.25em;
      
       .date-content
       {
-        margin: 10px 0;
+        margin: 0.625em    0;
           font-size: 16px;
           font-family:Inter;
           color: #999999;
@@ -1202,7 +1202,59 @@ margin-top: 1.25em;
 .six-title
 {
 
-    font-size: 48px;
+    font-size: 3em ;
+    color: #222;
+    font-family: Volkhov;
+
+  
+}
+
+
+
+      /* page 6 */
+      .grid-six
+      {
+       
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.25em;
+          justify-content: center;
+          width: 100%;
+          flex-basis: 100%;
+          flex-wrap: wrap;
+         
+        
+      }
+      .sectionsix {
+        background: #fefcfb;
+        padding: 6.25em 1.25em;
+        text-align: center;
+        margin-left: 4.8125em;
+      }
+      .info-imgsix
+      {
+        
+          margin: 0.625em    0;
+          font-size: 1.125em ;
+          font-family:Poppins;
+          color: #222222;
+          text-align: left;
+        
+      }
+     
+      .date-content
+      {
+        margin: 0.625em    0;
+          font-size: 1em;
+          font-family:Inter;
+          color: #999999;
+          text-align:left;
+
+      }
+.six-title
+{
+
+    font-size: 3em ;
     color: #222;
     font-family: Volkhov;
 
@@ -1213,7 +1265,7 @@ margin-top: 1.25em;
 
       .footer {
         background-color: #f7f8fc;
-        padding: 40px 1.25em;
+        padding: 1.5625em  1.25em;
         font-family: "Poppins", sans-serif;
         margin-left: 200px;align-content: center;
         width: 76%;
@@ -1222,9 +1274,9 @@ margin-top: 1.25em;
       
         .form-letter-box {
         background-color: #fa7436;
-        padding: 40px 1.25em;
+        padding: 1.5625em  1.25em;
         border-radius: 8px;
-        margin-bottom: 40px;
+        margin-bottom: 1.5625em ;
       }
       
       
@@ -1236,8 +1288,8 @@ margin-top: 1.25em;
       
       .form-letter-box-title {
         color: #ffffff;
-        padding: 20px;
-        font-size: 32px; /* start with smaller font for mobile */
+        padding: 1.25em ;
+        font-size: 2em  ; /* start with smaller font for mobile */
         font-weight: 600;
         margin-bottom: 1.25em;
         text-align: center;
@@ -1255,34 +1307,39 @@ margin-top: 1.25em;
       
       .input-group-form {
         display: flex;
-        gap: 10px;
-        width: 100%;
-      
+        gap: 0.625em   ;
+        background-color: white;
+        padding: 0.3125em  ;
       }
       
       .form-letter-box-input {
         flex: 1;
-        padding: 20px;
+        padding: 1.25em ;
         border-radius: 4px;
         border: none;
-        font-size: 16px;
-        width:100px;
+        font-size: 1em;
+        width:6.25em;
         font-family:Poppins ;
 
       }
       
       .form-letter-box-button {
 
-        padding: 10px 1.25em;
-        background-color: #ffffff;
-        color: #fa7436;
+        padding: 0.625em    1.25em;
+        background-color: #fa7436;
+        color: #ffffff;
         border: none;
         border-radius: 4px;
         cursor: pointer;
         font-weight: 500;
-        transition: background-color 0.3s;margin-top:5px; position:relative;right:120px; color: white; background-color: #fa7436; height:50px;width:100px;
+        transition: background-color 0.3s;
+        
         font-family:Poppins ;
-        font-size: 16px;
+        font-size: 1em;
+        width: 6.25em;
+        height: 3.125em;
+       
+        
       }
       
       .form-letter-box-button:hover {
@@ -1294,28 +1351,28 @@ margin-top: 1.25em;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 1.5625em ;
         flex-basis: 100%;
         font-family: Poppins;
       }
       
       .footer-brand {
         flex: 1;
-        min-width: 250px;
+        min-width: 15.625em ;
         font-family: Poppins;
       }
       
       .brand-title {
-        font-size: 24px;
+        font-size: 1.5em ;
         font-weight: 600;
         color: #222222;
-        margin-bottom: 15px;
+        margin-bottom: 0.9375em ;
         font-family: Poppins;
       }
       
       .brand-description {
         color: #666666;
-        font-size: 16px;
+        font-size: 1em;
         margin-bottom: 1.25em;
         line-height: 1.5;
         font-family: Poppins;
@@ -1323,12 +1380,12 @@ margin-top: 1.25em;
       
       .social-links {
         display: flex;
-        gap: 15px;
+        gap: 0.9375em ;
       }
       
       .social-link {
         color: #fa7436;
-        font-size: 24px;
+        font-size: 1.5em ;
         text-decoration: none;
         transition: color 0.3s;
         font-family: Poppins;
@@ -1341,7 +1398,7 @@ margin-top: 1.25em;
       /* Navigation */
       .footer-nav {
         display: flex;
-        gap: 60px;
+        gap: 3.75em ;
         flex-wrap: wrap;
         font-family: Poppins;
       }
@@ -1351,7 +1408,7 @@ margin-top: 1.25em;
       }
       
       .nav-title {
-        font-size: 18px;
+        font-size: 1.125em ;
         font-weight: 600;
         color: #222222;
         margin-bottom: 1.25em;
@@ -1367,10 +1424,10 @@ margin-top: 1.25em;
       
       .nav-link {
         color: #666666;
-        font-size: 18px;
+        font-size: 1.125em ;
         text-decoration: none;
         display: block;
-        margin-bottom: 12px;
+        margin-bottom:  0.75em ;
         transition: color 0.3s;
         font-family: Poppins;
       }
@@ -1391,14 +1448,14 @@ margin-top: 1.25em;
       
       .copyright {
         color: #666666;
-        font-size: 14px;
+        font-size: 0.875em ;
         opacity: 0.8;
         font-family: Poppins;
       }
       
       .terms-link {
         color: #666666;
-        font-size: 14px;
+        font-size: 0.875em ;
         text-decoration: none;
         opacity: 0.8;
         transition: opacity 0.3s;
@@ -1429,7 +1486,7 @@ margin-top: 1.25em;
 }
 .rainbowimg
 {
-  display: flex;justify-content: end; gap:10px;
+  display: flex;justify-content: end; gap:0.625em   ;
 }
 .treeimg
 {
@@ -1446,45 +1503,45 @@ margin-top: 1.25em;
 
 /* common */
 .arrow-styles
-{margin-top:50px;display:flex;gap:1.25em;justify-content: center;
+{margin-top:3.125em;display:flex;gap:1.25em;justify-content: center;
   
   width: auto;
   
 }
 /* media query       */
 
-@media (max-width: 991px) {
+@media (max-width: 61.9375em   ) {
   .hero-background {
     max-width: 100%;
-    padding: 0 20px 100px;
+    padding: 0 1.25em  6.25em;
   }
 
   .hero-container {
     max-width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em   ;
   }
 
   .logo-container,
   .nav-menu,
   .auth-buttons {
     width: 100%;
-    box-shadow: 0 8px 16px 0 rgba(83, 83, 83, 0.16);
+    box-shadow: 0 0.5em 1em 0 rgba(83, 83, 83, 0.16);
   }
 
   .logo-wrapper {
-    margin-top: 40px;
+    margin-top: 1.5625em ;
   }
 
   .menu-items {
-    margin-top: 40px;
+    margin-top: 1.5625em ;
   }
 
   .auth-wrapper {
-    margin-top: 40px;
+    margin-top: 1.5625em ;
   }
 
   .signup-button {
-    padding: 13px 20px;
+    padding: 0.8125em 1.25em ;
   }
 
   .content-wrapper {
@@ -1499,26 +1556,26 @@ margin-top: 1.25em;
 
   .content-container {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 1.5625em ;
   }
 
   .hero-title {
     max-width: 100%;
-    font-size: 64px;
-    line-height: 48px;
+    font-size: 4em ;
+    line-height: 3em ;
     font-family: Volkhov;;
   }
 
   .hero-description {
     max-width: 100%;
-    margin-right: 10px;
+    margin-right: 0.625em   ;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 1.25em ;
   }
 
   .discover-button {
-    padding: 14px 20px;
-    margin-top: 40px;
+    padding: 0.875em  1.25em ;
+    margin-top: 1.5625em ;
   }
 
   .image-content {
@@ -1527,12 +1584,12 @@ margin-top: 1.25em;
 
   .hero-image {
     max-width: 100%;
-    margin-top: 18px;
+    margin-top: 1.125em ;
   }
 
   .search-section {
-    padding: 32px 20px;
-    margin-top: 40px;
+    padding: 2em   1.25em ;
+    margin-top: 1.5625em ;
     
   }
 
@@ -1548,7 +1605,7 @@ margin-top: 1.25em;
 
   .search-inputs {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 1.5625em ;
   }
 
   .input-placeholders {
@@ -1560,16 +1617,16 @@ margin-top: 1.25em;
   }
 
   .explore-button {
-    margin-top: 40px;
-    padding: 14px 20px;
+    margin-top: 1.5625em ;
+    padding: 0.875em  1.25em ;
   }
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 61.9375em) {
   .font-sizeproperty {
     max-width: 100%;
-    font-size: 40px;
+    font-size: 1.5625em ;
   }
 
   .pagetwo-description {
@@ -1578,7 +1635,7 @@ margin-top: 1.25em;
 
   .signup-container {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 1.5625em ;
   }
 
   .signup-container {
@@ -1593,11 +1650,11 @@ margin-top: 1.25em;
   }
 
   .contain-data {
-    margin-top: 30px;
+    margin-top: 1.875em ;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 61.9375em   ) {
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -1614,7 +1671,7 @@ margin-top: 1.25em;
 
   .footer-nav {
     justify-content: center;
-    gap: 40px;
+    gap: 1.5625em ;
   }
 
   .nav-column {
@@ -1622,9 +1679,9 @@ margin-top: 1.25em;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 40em  ) {
   .form-letter-box-title {
-    font-size: 20px;
+    font-size: 1.25em ;
   }
 
   .input-group {
@@ -1636,16 +1693,16 @@ margin-top: 1.25em;
   }
 
   .nav-title {
-    font-size: 16px;
+    font-size: 1em;
   }
 
   .nav-link {
-    font-size: 16px;
+    font-size: 1em;
   }
 
   .footer-bottom {
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625em   ;
     text-align: center;
   }
   .destination-grid__container
@@ -1657,14 +1714,17 @@ margin-top: 1.25em;
 .container,
 .page5-container,
 .container,
-.footer .section-seven {
-  max-width: 1200px;  
+.footer  {
+  max-width:75em;  
   margin: 0 auto;     
   padding: 0 1.25em;  
   box-sizing: border-box;
 }
 
-
+.section-seven
+{
+  margin-left:2.25em ;
+}
 .sectionfive
  {
   margin-left: 0;      
@@ -1683,4 +1743,9 @@ margin-top: 1.25em;
 .six-title,
 .footer .footer-brand {
   margin-left: 0;
+
+}
+.six-title
+{
+ padding: 0.7em;
 }
