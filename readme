@@ -1,0 +1,17 @@
+This project is about building a system (or process) that helps a travel agency efficiently plan, organize, and manage trips for customers.  
+It will include features like creating customized travel packages, managing bookings (flights, hotels, transport), suggesting itineraries based on customer preferences, and handling budgets.  
+The goal is to make trip planning faster, easier, and more personalized — improving customer satisfaction and streamlining operations for the agency.
+
+✈️Hero Section
+Heading: Get started your exciting journey with us.
+
+Description: A team of experienced tourism professionals will provide you with the best advice and tips for your desired destination.
+
+Travel illustration with:
+
+    Location input
+
+    Date picker
+
+    Guest number selector
+

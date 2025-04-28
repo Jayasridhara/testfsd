@@ -2,9 +2,9 @@
 .contain-data
 {
   flex-shrink: 1;
-  padding: 20px;
-  margin-left: 20px;
-  padding-left: 20px;
+  padding: 1.25em;
+  margin-left: 1.25em;
+  padding-left: 1.25em;
   padding-bottom: 50px;
   box-shadow: 0 8px 16px 0 rgba(147, 146, 145, 0.716);
   background-color: #FFFFFF;
@@ -19,7 +19,7 @@
 }
 .container-two
 {
-  padding: 20px;
+  padding: 1.25em;
   text-align: center;
  
 }
@@ -43,7 +43,7 @@ align-items: center;
 display: flex;
 justify-content: space-around;
 align-items: center;
-gap: 20px;
+gap: 1.25em;
 background-color: #F7F8FC;
 width: 1170px;
 max-width: 100%;
@@ -53,7 +53,9 @@ flex-direction: wrap;
 .auth-buttons {
 display: flex;
 flex-direction: column;
-align-items: stretch;
+justify-content: center;
+align-items: center;
+align-items: center;
 line-height: normal;
 width: 34%;
 }
@@ -61,16 +63,12 @@ width: 34%;
 list-style: none;
 display: flex;
 flex-grow: 1;
-align-items: stretch;
-gap: 20px;
+align-items: center;
+gap: 30px;
 font-family:
-Poppins,
--apple-system,
-Roboto,
-Helvetica,
-sans-serif;
+Poppins;
 font-size: 16px;
-font-weight: 600;
+font-weight: 500;
 justify-content: space-between;
 }
 .login-link {
@@ -83,11 +81,11 @@ margin: auto 0;
 .signup-button {
 border-radius: 5px;
 background-color: #fa7436;
-
-padding: 13px 50px;
+padding: 10px;
+height: 1.25em;
+width: 80px;
 color: #fff;
-justify-content: center;
-
+margin-top: 50px;
 text-decoration: none;
 }
   .brand-name {
@@ -97,28 +95,22 @@ text-decoration: none;
       font-weight: inherit;
       }
 
-      .brand-icon {
-      aspect-ratio: 1;
-      object-fit: contain;
-      object-position: center;
-      width: 19px;
-      fill: #666;
-      margin: auto 0;
-      flex-shrink: 0;
-      }
+    
     
       .menu-items {
       list-style: none;
       display: flex;
       margin: auto 0;
-      align-items: stretch;
-      gap: 32px;
+      align-items: end;
+      justify-content: center;
+      gap: 22px;
       font-family:Poppins;
       font-size: 16px;
       color: #222;
       font-weight: 400;
       line-height: normal;
-      width: 50%;
+
+
       }
       .nav-link {
       color: inherit;
@@ -145,7 +137,7 @@ line-height: normal;
 
 .content-container {
 
-gap: 20px;
+gap: 1.25em;
 display: flex;
 margin-top: 82px;
 flex-direction: column;
@@ -178,7 +170,7 @@ color: #fa7436;
 
 .hero-description {
 color: #666;
-font-size: 20px;
+font-size: 1.25em;
 font-weight: 400;
 line-height: 40px;
 margin: 32px 24px 0 0;
@@ -204,7 +196,7 @@ flex-grow: 1;
     
 border-radius: 5px;
 background-color: #fff;
-border: none;
+border: 1px solid #fa7436;
 cursor: pointer;
 align-self: start;
 margin-top: 64px;
@@ -213,6 +205,7 @@ font-size: 18px;
 color: #fa7436;
 font-weight: 500;
 line-height: 32px;
+font-family: Poppins;
 
 }
 
@@ -226,10 +219,11 @@ margin-top: 42px;
 width: 841px;
 max-width: 100%;
 padding: 32px 24px;
+font-family:Poppins;
 }
 
 .search-content {
-gap: 20px;
+gap: 1.25em;
 display: flex;
 }
 
@@ -246,7 +240,7 @@ display: flex;
 width: 491px;
 max-width: 100%;
 align-items: stretch;
-gap: 20px;
+gap: 1.25em;
 font-size: 16px;
 color: #222;
 font-weight: 500;
@@ -308,7 +302,7 @@ border: none;
 cursor: pointer;
 flex-grow: 1;
 padding: 14px 28px;
-font-family:Poppins,-apple-system,Roboto,Helvetica,sans-serif;
+font-family:Poppins;
 font-size: 18px;
 color: #fff;
 font-weight: 500;
@@ -318,8 +312,8 @@ width: 100%;
 .header
 { 
 background: #FEFCFB;
-padding: 20px;
-margin-left: 77px;
+padding: 1.25em;
+margin-left: 4.8125em;
 }
 
 
@@ -328,9 +322,9 @@ margin-left: 77px;
 {
 
 background-color: #F7F8FC;
-padding: 20px;
-margin-left: 77px;
-margin-top: 20px;
+padding: 1.25em;
+margin-left: 4.8125em;
+margin-top: 1.25em;
 }
 
 
@@ -338,15 +332,14 @@ margin-top: 20px;
 {      
   margin-top: 3px;
   margin-left: 10px;
-  padding: 20px;
+  padding: 1.25em;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap:10px;
   flex-wrap: wrap;
-  font-family: Poppins,
-  -apple-system,
-  Roboto,
-  Helvetica,
-  sans-serif;
+  font-family: Poppins;
+  flex-basis: 100%;
+  
   
 }
 
@@ -398,26 +391,29 @@ margin-top: 20px;
 
 .sectionthree {
     background: #fefcfb;
-    padding: 20px;
-    margin-left: 77px;
+    padding: 1.25em;
+    margin-left: 4.8125em;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25em;
   }
   
   .title {
     font-size: 48px;
     color: #222;
+    font-family: Volkhov;
   }
   
   .highlight {
     color: #fa7436;
+    font-family: Volkhov;
   }
   
   .description {
     font-size: 18px;
     color: #666;
     max-width: 500px;
-    margin: 20px auto 40px;
+    margin: 1.25em auto 40px;
+    font-family: Poppins;
   }
   
   .vacation-plan__description {
@@ -427,13 +423,14 @@ margin-top: 20px;
       font-size: 18px;
       color: #666;
       max-width: 500px;
-      margin: 20px auto 40px;
+      margin: 1.25em auto 40px;
   }
   .grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25em;
     justify-content: center;
+    flex-basis: 100%;
   }
   
   .card {
@@ -443,6 +440,7 @@ margin-top: 20px;
     overflow: hidden;
     width: 270px;
     position: relative;
+
   }
   
   
@@ -470,14 +468,15 @@ margin-top: 20px;
     background: #fa7436;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 1.25em;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
+    font-family: Poppins;
   }
   
   .content {
-    padding: 20px;
+    padding: 1.25em;
   }
   
   .city {
@@ -493,6 +492,7 @@ margin-top: 20px;
     flex-direction: row;
     gap: 8px;
     align-items: center;  justify-content: space-between;
+    font-family: Poppins;
   }
   
   .price {
@@ -508,15 +508,15 @@ margin-top: 20px;
 .sectionfour
 {
      background: #fefcfb;
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25em;
   
 }
 
 .container-pg-4
 {
-  margin-left:77px;background-color:#FEFCFB;
+  margin-left:4.8125em;background-color:#FEFCFB;
 }
   .vacation-plan__title-highlight
   {
@@ -531,7 +531,11 @@ margin-top: 20px;
 
   .highlight-heading-style
   {
-    padding: 20px; flex-basis: 60%;margin-left: 100px;
+    padding-left: 1.25em;
+    padding-top: 1.25em;
+    padding-right: 1.25em;
+     flex-basis: 60%;margin-left: 100px;
+    font-size: 48px;
   }
 .distination-image-container
 {
@@ -591,11 +595,15 @@ margin-top: 20px;
   .destination-grid {
     align-self: stretch;
     margin-top: 64px;
+    width: 100%;
   }
   
   .destination-grid__container {
     gap: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
   
   /* Destination Card Styles */
@@ -649,8 +657,9 @@ margin-top: 20px;
     margin-top: 24px;
     padding: 0 24px;
     align-items: stretch;
-    gap: 20px;
+    gap: 1.25em;
     justify-content: space-between;
+    font-family:Poppins;
   }
   
   .destination-card__info {
@@ -736,7 +745,7 @@ margin-top: 20px;
   }
   
   .destination-grid_container {
-    gap: 20px;
+    gap: 1.25em;
     display: flex;
     justify-content: center;
   }
@@ -755,7 +764,7 @@ margin-top: 20px;
     }
     .sectionfive
     {
-      margin:0px; width: 80%; margin-left: 77px;
+      margin:0px; width: 80%; margin-left: 4.8125em;
     }
     .page5-container {
     margin-bottom: -24px;
@@ -767,7 +776,7 @@ margin-top: 20px;
     {
       
               display: grid;
-              grid-template-columns: repeat(12,1fr);gap:20px;
+              grid-template-columns: repeat(12,1fr);gap:1.25em;
     }
     .testimonials-heading-column {
     display: flex;
@@ -814,7 +823,7 @@ margin-top: 20px;
     align-items: stretch;
     line-height: normal;
     width: 60%;
-    margin-left: 20px;
+    margin-left: 1.25em;
     grid-column: 4/11;
     }
     
@@ -923,12 +932,14 @@ margin-top: 20px;
   
     .heading-wrapper {
     margin-top: 40px;
+
     }
     
     .main-heading {
     margin-right: 6px;
     font-size: 40px;
     line-height: 50px;
+    font-family: Volkhov;
     }
     
     .card-column {
@@ -947,7 +958,7 @@ margin-top: 20px;
     
     .client-review {
     max-width: 100%;
-    padding-left: 20px;
+    padding-left: 1.25em;
     }
     
     .author-info {
@@ -998,11 +1009,7 @@ margin-top: 20px;
     .heading-description {
       color: #666;
       font-family:
-        Roboto,
-        -apple-system,
-        Roboto,
-        Helvetica,
-        sans-serif;
+        Roboto;
       font-size: 16px;
       font-weight: 400;
       line-height: 32px;
@@ -1015,7 +1022,7 @@ margin-top: 20px;
       align-items: stretch;
       line-height: normal;
       width: 60%;
-      margin-left: 20px;
+      margin-left: 1.25em;
     }
     
     .testimonial-wrapper {
@@ -1094,6 +1101,7 @@ margin-top: 20px;
         Roboto,
         Helvetica,
         sans-serif;
+        font-size:14px;
     }
     
     .author-name {
@@ -1144,16 +1152,19 @@ margin-top: 20px;
        
           display: flex;
           flex-wrap: wrap;
-          gap: 20px;
+          gap: 1.25em;
           justify-content: center;
           width: 100%;
+          flex-basis: 100%;
+          flex-wrap: wrap;
          
         
       }
       .sectionsix {
         background: #fefcfb;
-        padding: 100px 20px;
+        padding: 100px 1.25em;
         text-align: center;
+        margin-left: 4.8125em;
       }
       .info-imgsix
       {
@@ -1175,31 +1186,36 @@ margin-top: 20px;
           text-align:left;
 
       }
+.six-title
+{
 
+    font-size: 48px;
+    color: #222;
+    font-family: Volkhov;
+
+  
+}
 
       /* page 7 */
 
-    .section-seven
-    {
-      width: 80%; margin-left: 77px;align-content: center;
-      width: 90%;
-      
-    }
+  
+    
       .footer {
         background-color: #f7f8fc;
-        padding: 40px 20px;
+        padding: 40px 1.25em;
         font-family: "Poppins", sans-serif;
-        margin-left: 77px;
-      
+        margin-left: 200px;align-content: center;
+        width: 76%;
       }
-      
       /* form-letter-box Section */
-      .form-letter-box {
+      
+        .form-letter-box {
         background-color: #fa7436;
-        padding: 40px 20px;
+        padding: 40px 1.25em;
         border-radius: 8px;
         margin-bottom: 40px;
       }
+      
       
       .form-letter-box-content {
         display: flex;
@@ -1211,10 +1227,10 @@ margin-top: 20px;
         color: #ffffff;
       padding: 30px;
         font-size: 48px;
-        width: 708px;
+        width: 44.25em;
         height: 124px;
         font-weight: 600;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         text-align: center;
       }
       
@@ -1226,25 +1242,32 @@ margin-top: 20px;
       .input-group {
         display: flex;
         gap: 10px;
+      
       }
       
       .form-letter-box-input {
         flex: 1;
-        padding: 10px;
+        padding: 20px;
         border-radius: 4px;
         border: none;
         font-size: 16px;
+        width:100px;
+        font-family:Poppins ;
+
       }
       
       .form-letter-box-button {
-        padding: 10px 20px;
+
+        padding: 10px 1.25em;
         background-color: #ffffff;
         color: #fa7436;
         border: none;
         border-radius: 4px;
         cursor: pointer;
         font-weight: 500;
-        transition: background-color 0.3s;
+        transition: background-color 0.3s;margin-top:5px; position:relative;right:120px; color: white; background-color: #fa7436; height:50px;width:100px;
+        font-family:Poppins ;
+        font-size: 16px;
       }
       
       .form-letter-box-button:hover {
@@ -1257,12 +1280,14 @@ margin-top: 20px;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 40px;
-        margin-bottom: 40px;
+        flex-basis: 100%;
+        font-family: Poppins;
       }
       
       .footer-brand {
         flex: 1;
         min-width: 250px;
+        font-family: Poppins;
       }
       
       .brand-title {
@@ -1270,13 +1295,15 @@ margin-top: 20px;
         font-weight: 600;
         color: #222222;
         margin-bottom: 15px;
+        font-family: Poppins;
       }
       
       .brand-description {
         color: #666666;
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         line-height: 1.5;
+        font-family: Poppins;
       }
       
       .social-links {
@@ -1289,6 +1316,7 @@ margin-top: 20px;
         font-size: 24px;
         text-decoration: none;
         transition: color 0.3s;
+        font-family: Poppins;
       }
       
       .social-link:hover {
@@ -1300,6 +1328,7 @@ margin-top: 20px;
         display: flex;
         gap: 60px;
         flex-wrap: wrap;
+        font-family: Poppins;
       }
       
       .nav-column {
@@ -1310,13 +1339,15 @@ margin-top: 20px;
         font-size: 18px;
         font-weight: 600;
         color: #222222;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
+        font-family: Poppins;
       }
       
       .nav-list {
         list-style: none;
         padding: 0;
         margin: 0;
+        font-family: Poppins;
       }
       
       .nav-link {
@@ -1326,6 +1357,7 @@ margin-top: 20px;
         display: block;
         margin-bottom: 12px;
         transition: color 0.3s;
+        font-family: Poppins;
       }
       
       .nav-link:hover {
@@ -1337,14 +1369,16 @@ margin-top: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 1.25em;
         border-top: 1px solid rgba(153, 153, 153, 0.56);
+        font-family: Poppins;
       }
       
       .copyright {
         color: #666666;
         font-size: 14px;
         opacity: 0.8;
+        font-family: Poppins;
       }
       
       .terms-link {
@@ -1353,6 +1387,7 @@ margin-top: 20px;
         text-decoration: none;
         opacity: 0.8;
         transition: opacity 0.3s;
+        font-family: Poppins;
       }
       
       .terms-link:hover {
@@ -1396,7 +1431,7 @@ margin-top: 20px;
 
 /* common */
 .arrow-styles
-{margin-top:50px;display:flex;gap:20px;justify-content: center;
+{margin-top:50px;display:flex;gap:1.25em;justify-content: center;
   
   width: auto;
   
