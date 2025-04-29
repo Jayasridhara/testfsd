@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
    </head>
    <body>
-    <div class="header">
-    
+    <main class="headermain">
+      <section class="sectionone">
+        <div>
             <div class="nav-content">
                 <div class="logo-container">                  
                        
@@ -33,30 +34,29 @@
                     </ul>
                   </div>
 
-            </div>     
-        <section class="hero-content">
-          <div class="content-wrapper">
-            <div class="text-content">
+            </div> 
+              
+            <div class="hero-contain">
+              <div class="section-holder">
               <div class="content-container">
-                <h2 class="hero-title">
-                  Get started your exciting                  
-                  <span class="highlight">journey</span>
-                  <br />
-                  with us.
-                </h2>
-                <p class="hero-description">
-                  A Team of experienced tourism professionals will provide you
-                  with the best advice and tips for your desire place.
-                </p>
-                <button class="discover-button">Discover Now</button>
+                  <h2 class="hero-title">
+                    Get started your exciting                  
+                    <span class="highlight">journey</span>
+                    <br />
+                    with us.
+                  </h2>
+                  <p class="hero-description">
+                    A Team of experienced tourism professionals will provide you
+                    with the best advice and tips for your desire place.
+                  </p>
+                  <button class="discover-button">Discover Now</button>
               </div>
-            </div>
-  
-            <div class="image-content">
-              <img src="./src/asset/img/hero_image.jpg" class="hero-image" alt="Travel illustration"/>
-            </div>
+              <div class="image-content">
+                <img src="./src/asset/img/hero_image.jpg" class="hero-image" alt="Travel illustration" width="785" height="585"/>
+              </div>
+              </div>
           </div>
-        </section>
+         
         <section class="search-section">
           <div class="search-container">
             <div class="search-content">
@@ -89,8 +89,8 @@
             </div>
           </div>
         </section>
-      
-    </div>
+        
+    </section>
 
      <!-- Page 2  -->
       <section class="sectiontwo">
@@ -129,7 +129,8 @@
       </section>
 <!-- page 3 start -->
       <section class="sectionthree">
-        <div class="container-pg-3 ">
+        <div>
+        <div class="container-holderthree"> 
           <h1 class="title">
             Exclusive <span class="highlight">deals & discounts</span>
           </h1>
@@ -205,15 +206,17 @@
     
           </div>
           <div>
-            <div class="arrow-styles">
-              <img src="./src/asset/img/Btn-Left.jpg" />
-              <img src="./src/asset/img/Btn-right.jpg" width="45px"/>
+             <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+              <div class="left-arrow"><i class="fas fa-arrow-left"></i></div>
+              <div class="right-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
           </div>
-          </div>
-        </div>
+        </div> 
+        
       </section>
   <!-- page 4  start   -->
   <section class="sectionfour">
+    <div class="container-holderfour">
     <div class="container-pg-4">
     <div class="head-content">
     <div class="highlight-heading-style">
@@ -230,10 +233,10 @@
     </div> 
   </div>
   <div>
-    <div class="arrow-styles" style="display:flex;justify-content:end;margin-right:100px;">
-      <img src="./src/asset/img/Btn-Left.jpg" />
-      <img src="./src/asset/img/Btn-right.jpg" width="45px"/>
-  </div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-left: 800px;">
+      <div class="left-arrow"><i class="fas fa-arrow-left"></i></div>
+      <div class="right-arrow"><i class="fas fa-arrow-right"></i></div>
+    </div>
 <div class="distination-image-container">
 
     <div class="destination-grid">  
@@ -318,6 +321,7 @@
 
   </div>
 </div>
+</div>
 </section>
   <!-- page 4 end -->
 <!-- page 5 -->
@@ -337,9 +341,9 @@
                   Our Clients send us bunch of smilies with our services and we love
                   them.
               </p>
-              <div class="arrow-styles">
-                  <img src="./src/asset/img/Btn-Left.jpg" />
-                  <img src="./src/asset/img/Btn-right.jpg" width="45px"/>
+              <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                <div class="left-arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="right-arrow"><i class="fas fa-arrow-right"></i></div>
               </div>
               </div>
           </div>
@@ -383,7 +387,7 @@
     </h1>
    
     <div class="grid-six">  
-      <div class="card">
+      <div class="card-six">
         <img src="./src/asset/img/pg-6-img1.jpg" alt="Paris" class="image">
         <div class="content">
           <div class="info">
@@ -394,7 +398,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card-six">
         <img src="./src/asset/img/pg-6-img2.jpg" alt="Paris" class="image">
         <div class="content">
           <div class="info">
@@ -406,7 +410,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card-six">
         <img src="./src/asset/img/pg-6-img3.jpg" alt="Paris" class="image">
         <div class="content">
           <div class="info">
@@ -417,7 +421,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card-six">
         <img src="./src/asset/img/pg-6-img4.jpg" alt="London" class="image">
         <div class="content">
           <div class="info">
@@ -520,6 +524,7 @@
 
   </div>
   </footer>
+</main>
 <style>
  
 </style>
