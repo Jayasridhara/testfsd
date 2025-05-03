@@ -16,45 +16,22 @@ body {
 
 /* 3. Fluid images */
 
-.contain-data
-{
-  flex-shrink: 1;
-  padding: 1.25em;
-  margin-left: 1.25em;
-  padding-left: 1.25em;
-  padding-bottom: 3.125em;
-  box-shadow: 0 0.5em 1em 0 rgba(147, 146, 145, 0.716);
-  background-color: #FFFFFF;
-  text-align: left;
-  width: 20%;
-  font-family: Poppins;
- 
-  
-}
+
 .sectionone
 {
   width: 100%;
 }
 .section-holder
 {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
   gap: 2rem;
   
 }
-.container-two
-{
-  padding: 1.25em;
-  text-align: center;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -80,6 +57,7 @@ body {
 .login-link {
 color: #fd8d3a;
 text-align: right;
+font-size: 1em;
 text-decoration: none;
 margin: auto 0;
 }
@@ -162,10 +140,12 @@ font-size: 4em ;
 font-family:
 Volkhov;
 margin: 0;
+line-height: 70px;
 }
 
 .highlight {
 color: #fa7436;
+
 }
 
 .hero-description {
@@ -318,19 +298,53 @@ margin-left: 4.8125em;
 
 
 /* page  2*/
+
 .sectiontwo
 {
 background-color: #F7F8FC;
-padding: 1.25em;
 width: 100%;
 
 }
+.container-two
+{
+  width: 100%;
+  padding-bottom: 1.25em;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.container-holdertwo
+{ background: #fefcfb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:80%;
+  margin: 0 auto;
+}
+.contain-data
+{
+  flex-shrink: 1;
+  padding: 2.25em;
+  padding-bottom: 3.125em;
+  box-shadow: 0 0.5em 1em 0 rgba(147, 146, 145, 0.716);
+  background-color: #FFFFFF;
+  line-height: 4em;
+  text-align: left;
+  width: 30%;
+  
+  font-family: Poppins;
+ 
+  
+}
 .signup-container
 {      
   margin-top: 3px;
-  margin-left: 0.625em;
+  width:100%;
   display: flex;
   justify-content: space-between;
   gap:0.625em   ;
@@ -359,6 +373,8 @@ width: 100%;
   font-family: Poppins;
   color: #666;
   font-weight: 100;
+  font-size: 1em;
+  width:60%;
 }
 .box-heading
 {
@@ -372,6 +388,7 @@ width: 100%;
   font-size: 3.125em;
   color: #222;
   font-weight: 700;
+  display: block;
 
 }
 
@@ -399,7 +416,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width:90%;
+    width:80%;
     margin: 0 auto;
   }
   .title {
@@ -436,6 +453,7 @@ width: 100%;
     gap: 1.25em;
     justify-content: space-between;
     flex-basis: 100%;
+    width: 100%;
   }
   
   .card {
@@ -524,12 +542,13 @@ width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width:90%;
+  width:80%;
   margin: 0 auto;
 }
 
 .container-pg-4
 {
+  width:100%;
   background-color:#FEFCFB;
 }
   .vacation-plan__title-highlight
@@ -557,7 +576,7 @@ width: 100%;
   align-items: center;
    align-content: center;
    justify-content: center;
-   width: 90%;
+   width: 100%;
 }
   .vacation-plan {
     border-radius: 0;
@@ -614,19 +633,20 @@ width: 100%;
   }
   
   .destination-grid__container {
-    gap: 0.625em   ;
+    gap: 7.625em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:100%;
     
   }
   
   /* Destination Card Styles */
   .destination-card {
-    flex: 1 1 18.75em; /* Allow shrinking and growing */
-    min-width: 15.625em ;
-    max-width: 350px;
-    margin: 0.625em   ;
+    flex: 1 1 18.75em;
+    width:100%; /* Allow shrinking and growing */
+    margin-top: 0.625em   ;
+    margin-bottom: 0.625em   ;
     box-sizing: border-box;
 }
 @media (max-width: 768px) {
@@ -781,21 +801,17 @@ width: 100%;
   .apply-padding {
     background-color: rgba(247, 248, 252, 1);
     display: flex;
-    width: 100%;
-    padding: 7.5em  4.375em ;
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     }
-    .sectionfive
-    {
-      margin:0;margin-left: 4.8125em;
-    }
+    
     .page5-container {
     margin-bottom: -1.5em ;
-    width: 1103px;
-    max-width: 100%;
-    margin-left: 4.8125em;
+    width: 80%;
+    
     }
  
     .make-it-grid-layout
@@ -1179,7 +1195,7 @@ width: 100%;
           display: flex;
           flex-wrap: wrap;
           gap: 1.25em;
-          justify-content: center;
+          justify-content: space-between;
           width: 100%;
           flex-basis: 100%;
           flex-wrap: wrap;
@@ -1191,20 +1207,19 @@ width: 100%;
         border:  0.125em   solid #eee;
         border-radius: 0.625em   ;
         overflow: hidden;
-        width: 253px;
+        width: 353px;
         position: relative;
     
       }
       .sectionsix {
         background: #fefcfb;
-        padding: 6.25em 1.25em;
-        text-align: center;
-        margin-left: 4.8125em;
+        margin: 0 auto;
+
       }
       .info-imgsix
       {
         
-          margin: 0.625em0;
+          margin: 0.625em;
           font-size: 1.125em ;
           font-family:Poppins;
           color: #222222;
@@ -1234,24 +1249,11 @@ width: 100%;
 
 
       /* page 6 */
-      .grid-six
-      {
-       
-          display: flex;
-          flex-wrap: wrap;
-          gap: 1.25em;
-          justify-content: center;
-          width: 100%;
-          flex-basis: 100%;
-          flex-wrap: wrap;
-         
-        
-      }
+  
       .sectionsix {
         background: #fefcfb;
-        padding: 6.25em 1.25em;
         text-align: center;
-        margin-left: 4.8125em;
+        width:80%;
       }
       .info-imgsix
       {
@@ -1286,19 +1288,18 @@ width: 100%;
       /* page 7 */
 
       .footer {
+        width:100%;
         background-color: #f7f8fc;
-        padding: 1.5625em  1.25em;
         font-family: "Poppins", sans-serif;
-        margin-left: 200px;align-content: center;
-        width: 76%;
+        align-content: center;
       }
       /* form-letter-box Section */
       
         .form-letter-box {
         background-color: #fa7436;
-        padding: 1.5625em  1.25em;
         border-radius: 8px;
         margin-bottom: 1.5625em ;
+        
       }
       
       
@@ -1311,7 +1312,7 @@ width: 100%;
       .form-letter-box-title {
         color: #ffffff;
         padding: 1.25em ;
-        font-size: 2em  ; /* start with smaller font for mobile */
+        font-size: 3em  ; /* start with smaller font for mobile */
         font-weight: 600;
         margin-bottom: 1.25em;
         text-align: center;
@@ -1323,8 +1324,10 @@ width: 100%;
     
       
       .form-letter-box-form {
+        padding-bottom: 3em;
         width: 100%;
         max-width: 600px;
+       
       }
       
       .input-group-form {
@@ -1425,6 +1428,7 @@ width: 100%;
       
       .nav-column {
         min-width: 160px;
+        
       }
       
       .nav-title {
@@ -1443,11 +1447,12 @@ width: 100%;
         flex-direction: column;
         font-family: Poppins;
         align-items: flex-start;
+        font-size: 1.125em;
       }
       
       .nav-link {
         color: #666666;
-        font-size: 1.125em ;
+        font-size: 1em ;
         text-decoration: none;
         display: block;
         margin-bottom:  0.75em ;
@@ -1500,7 +1505,6 @@ width: 100%;
   bottom: 0px;
   background:transparent; /* 👈 Black with 40% transparency */
   z-index: 1;
- 
   width: 100%;
   height: 100%;
   opacity: 0.8s;
@@ -1520,6 +1524,7 @@ width: 100%;
 .form-letter-box-content {
   position: relative;
   z-index: 2;
+
 }
 
 
@@ -1806,43 +1811,12 @@ width: 100%;
     display: block;
   }
 }
-
-.container,
-.page5-container,
-.container,
-.footer  {
-  width: 100%;
-  max-width:75em;  
-  margin: 0 auto;     
-  padding: 0 1.25em;  
-  box-sizing: border-box;
-}
-
-.section-seven
-{
-  margin-left:2.25em ;
-}
 .sectionfive
  {
-  margin-left: 0;      
-  width: auto;        
+  margin-left: 0;              
 }
 
 /* Ensure content inside is left-aligned */
-.sectionfive .make-it-grid-layout,
-.grid-six,
-.footer-content {
-  justify-content: flex-start; 
-}
-
-
-.sectionfive .heading-wrapper,
-.six-title,
-.footer .footer-brand {
-  margin-left: 0;
-  
-
-}
 .six-title
 {
  padding: 0.7em;
@@ -1857,4 +1831,9 @@ width: 100%;
 }
 .hero-contain {
 width:100%;
+}
+
+.container-six
+{
+  width: 100%;
 }
